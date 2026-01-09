@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html lang="ro">
+
 <head>
     <meta charset="UTF-8">
     <title>Biblioteca Artelor</title>
 
-    <style>
-        .galerie {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 40px;
-        }
-
-        .galerie img {
-            width: 250px;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .galerie img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-        }
-    </style>
+    <link rel="stylesheet" href="css-files/styles.css">
 
 </head>
+
 <body>
 
     <h2 style="text-align:center;">Galerie imagini clicabile</h2>
 
+
     <div class="galerie">
-        <!-- Imagine 1 -->
-        <a href="https://www.google.com" target="_blank">
-            <img src="https://picsum.photos/seed/a/400/300" alt="Imagine 1">
-        </a>
+        <div class="image-box">
+            <img src="pages/monalissa.jpg" alt="Imagine 1" class="clickable">
+            <p class="image-text">
+                Lorem Ipsum is the industry-standard "dummy" or placeholder text used by designers, printers, and
+                developers to demonstrate the visual form of a document or webpage without the distraction of readable
+                content.
+            </p>
+        </div>
 
-        <!-- Imagine 2 -->
-        <a href="https://www.youtube.com" target="_blank">
-            <img src="https://picsum.photos/seed/b/400/300" alt="Imagine 2">
-        </a>
+        <div class="image-box">
+            <img src="pages/statuia.jpg" alt="Imagine 2" class="clickable">
+            <p class="image-text">
+                Lorem Ipsum is the industry-standard "dummy" or placeholder text used by designers, printers, and
+                developers to demonstrate the visual form of a document or webpage without the distraction of readable
+                content.
+            </p>
+        </div>
 
-        <!-- Imagine 3 -->
-        <a href="https://www.wikipedia.org" target="_blank">
-            <img src="https://picsum.photos/seed/c/400/300" alt="Imagine 3">
-        </a>
+        <div class="image-box">
+            <img src="pages/nunta.jpg" alt="Imagine 3" class="clickable">
+            <p class="image-text">
+                Lorem Ipsum is the industry-standard "dummy" or placeholder text used by designers, printers, and
+                developers to demonstrate the visual form of a document or webpage without the distraction of readable
+                content.
+            </p>
+        </div>
     </div>
 
 </body>
+<!-- JavaScript Files -->
+<script src="script.js"></script>
+
 </html>
