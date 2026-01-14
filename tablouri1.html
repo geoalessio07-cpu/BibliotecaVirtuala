@@ -2,11 +2,13 @@
 <html lang="ro">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Biblioteca Artelor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Biblioteca Artelor</title>
 
-    <link rel="stylesheet" href="css-files/styles.css">
-
+  <!-- Google font (schimbă după preferință) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css-files/styles.css" />
 </head>
 
 <body>
@@ -75,6 +77,37 @@
             </p>
         </div>
     </div>
+    <div>
+    <!-- Footer -->
+    <footer id="footer">
+      <p>Copyright © <span id="current-year">2025</span> | Toma Alessio, Bibol Răzvan <br> Atestat Web | Biblioteca Artelor </p>
+    </footer>
+
+      <script>
+    // mobile menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    navToggle.addEventListener('click', () => {
+      const shown = mobileMenu.style.display === 'block';
+      mobileMenu.style.display = shown ? 'none' : 'block';
+    });
+
+    // fake form submit (demo)
+    function submitForm(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      alert('Mulțumim, ' + (name || 'utilizator') + '! Mesajul a fost trimis (demo).');
+      e.target.reset();
+    }
+
+    // optional: lazy-load gallery images
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.thumb img').forEach(img => {
+        img.loading = "lazy";
+      });
+    });
+  </script>
+  </div>
 
 </body>
 <!-- JavaScript Files -->
