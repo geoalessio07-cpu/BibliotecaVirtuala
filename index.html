@@ -96,6 +96,31 @@
     <footer id="footer">
       <p>Copyright © <span id="current-year">2025</span> | Toma Alessio, Bibol Răzvan <br> Atestat Web | Biblioteca Artelor </p>
     </footer>
+    
+      <script>
+    // mobile menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    navToggle.addEventListener('click', () => {
+      const shown = mobileMenu.style.display === 'block';
+      mobileMenu.style.display = shown ? 'none' : 'block';
+    });
+
+    // fake form submit (demo)
+    function submitForm(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      alert('Mulțumim, ' + (name || 'utilizator') + '! Mesajul a fost trimis (demo).');
+      e.target.reset();
+    }
+
+    // optional: lazy-load gallery images
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.thumb img').forEach(img => {
+        img.loading = "lazy";
+      });
+    });
+  </script>
   </div>
 
   <script src="script.js"></script>
