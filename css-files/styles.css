@@ -1,5 +1,5 @@
 :root {
-    --bg: #E3C08D;
+    --bg: #B5B7B5;
     --accent: #6C8E68;
     --muted: #8c8c8c;
     --card: #3d3d3d;
@@ -14,7 +14,7 @@
 
 body {
     margin: 0;
-    background: #E3C08D;
+    background: #B5B7B5;
     color: #6C8E68;
     line-height: 1.45
 }
@@ -254,5 +254,5 @@ form button {
 
 #footer {
     padding: 10px;
-    color: #E3C08D
+    color: #6C8E68
 }
