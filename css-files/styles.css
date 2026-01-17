@@ -1,8 +1,8 @@
 :root {
     --bg: #0F172A;
-    --accent: #00F5FF;
-    --muted: #d1deec;
-    --card: #00F5FF;
+    --accent: #373b3e;
+    --muted: #00F5FF;
+    --card: #373b3e;
     --maxw: 1100px;
     --radius: 12px;
     font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
@@ -15,7 +15,7 @@
 body {
     margin: 0;
     background: #0F172A;
-    color: #d1deec;
+    color: #00F5FF;
     line-height: 1.45
 }
 
