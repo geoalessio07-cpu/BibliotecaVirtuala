@@ -1,8 +1,8 @@
 :root {
-    --bg: #B5B7B5;
+    --bg: #8E969D;
     --accent: #6C8E68;
     --muted: #8c8c8c;
-    --card: #3d3d3d;
+    --card: #6C8E68;
     --maxw: 1100px;
     --radius: 12px;
     font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
