@@ -1,5 +1,5 @@
 :root {
-    --bg: #787e84;
+    --bg: #494d50;
     --accent: #6C8E68;
     --muted: #8c8c8c;
     --card: #3d3d3d;
@@ -14,7 +14,7 @@
 
 body {
     margin: 0;
-    background: #787e84;
+    background: #494d50;
     color: #6C8E68;
     line-height: 1.45
 }
