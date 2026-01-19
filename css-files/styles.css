@@ -62,7 +62,7 @@ nav a {
 
 .cta {
     background: var(--accent);
-    color: #fff;
+    color: #00F5FF;
     padding: 10px 14px;
     border-radius: 10px;
     text-decoration: none;
@@ -254,5 +254,5 @@ form button {
 
 #footer {
     padding: 10px;
-    color: #d1deec
+    color: #00F5FF
 }
