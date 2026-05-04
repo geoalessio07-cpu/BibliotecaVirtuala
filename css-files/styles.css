@@ -237,6 +237,7 @@ form button {
 }
 .image-description img {
     cursor: pointer;
+    align-items: center;
     width: auto;
     /* natural width */
     max-width: 40%;
