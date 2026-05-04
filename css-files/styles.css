@@ -92,7 +92,14 @@ nav a {
     background: var(--card);
     border-radius: var(--radius);
     padding: 16px;
-    box-shadow: 0 6px 20px rgba(12, 30, 50, 0.06)
+    box-shadow: 0 6px 20px rgba(12, 30, 50, 0.06);
+      cursor: pointer;
+    width: auto;
+    /* natural width */
+    max-width: 30%;
+    /* prevents overflowing container */
+    height: auto;
+    /* keeps aspect ratio */
 }
 
 /* Gallery */
