@@ -235,6 +235,15 @@ form button {
     height: auto;
     /* keeps aspect ratio */
 }
+.image-description img {
+    cursor: pointer;
+    width: auto;
+    /* natural width */
+    max-width: 40%;
+    /* prevents overflowing container */
+    height: auto;
+    /* keeps aspect ratio */
+}
 
 .image-text {
     display: none;
